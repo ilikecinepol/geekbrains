@@ -5,9 +5,8 @@
 '''
 time = int(input('Введите время в секундах: '))
 
-
 hours = time // 3600
-minutes =time % 3600  // 60
+minutes = time % 3600 // 60
 seconds = time % 60
 
 print(f'Вы ввели время, равное {hours} часов {minutes} минут {seconds} секунд')
