@@ -10,6 +10,9 @@ def funk1(a, b):
     print(a / b)
 
 
-a = int(input('Введите делимое: '))
-b = int(input('Введите делитель: '))
-funk1(a, b)
+try:
+    a = int(input('Введите делимое: '))
+    b = int(input('Введите делитель: '))
+    funk1(a, b)
+except ZeroDivisionError:
+    print('Комплексное число!')
