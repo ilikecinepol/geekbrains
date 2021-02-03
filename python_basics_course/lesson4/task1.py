@@ -7,6 +7,7 @@
 """
 from sys import argv
 
+
 path, bid, production, prize = argv
 print(argv)
 
