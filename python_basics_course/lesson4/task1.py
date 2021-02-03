@@ -12,3 +12,5 @@ print(argv)
 
 wages = lambda bid, production, prize: int(bid) * int(production) + int(prize)
 print(wages(bid, production, prize))
+
+
