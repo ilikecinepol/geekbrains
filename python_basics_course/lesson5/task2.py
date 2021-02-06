@@ -13,4 +13,4 @@ with open('task2_file.txt') as file:
 
 print(f'Всего строк в файле: {len(data)}')
 for i in range(len(data)):
-    print(f'В {i}-й строке содержится {nums[i]} символов')
+    print(f'В {i+1}-й строке содержится {nums[i]} символов')
