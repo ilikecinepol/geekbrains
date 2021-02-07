@@ -5,7 +5,8 @@
 '''
 n = input('Вводите числа, разделённые пробелами: ')
 n = n.split()
-# nums = list(map(lambda x: int(x), n))
+nums = list(map(lambda x: int(x), n))
 
 with open('task5_file.txt', 'w', encoding='utf-8') as file:
     file.write(" ".join(n))
+print(sum(nums))
