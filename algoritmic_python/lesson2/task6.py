@@ -8,14 +8,17 @@
 from random import randint
 
 num = randint(0, 100)
+win = 0
 print('Загадано число от 0 до 100. Попробуйте угадать')
 for i in range(10):
     attempt = int(input('Введите число: '))
     if attempt == num:
         print('Вы угадали!')
+        win = 1
         break
     elif attempt > num:
         print("Я загадал меньшее число")
     else:
         print("Я загадал большее число")
-print("К сожалению, Вы проиграли!")
+if win == 0:
+    print("К сожалению, Вы проиграли!")
