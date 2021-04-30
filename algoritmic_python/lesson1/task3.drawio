@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2021-04-25T11:49:01.544Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 YaBrowser/21.3.2.193 Yowser/2.5 Safari/537.36" etag="4ZSFt8bQXheWHDCIJUpX" version="14.6.6" type="github">
+  <diagram id="VEmZzb4lRwsULeRV2XHb" name="Page-1">
+    <mxGraphModel dx="1374" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="keBvDJJ4HTDuqRogifVA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="keBvDJJ4HTDuqRogifVA-1" target="keBvDJJ4HTDuqRogifVA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-1" value="НАЧАЛО" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="40" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="keBvDJJ4HTDuqRogifVA-2" target="keBvDJJ4HTDuqRogifVA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-2" value="Ввод координаты х1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="120" width="231" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="keBvDJJ4HTDuqRogifVA-3" target="keBvDJJ4HTDuqRogifVA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-3" value="Ввод координаты y1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="200" width="231" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="keBvDJJ4HTDuqRogifVA-4" target="keBvDJJ4HTDuqRogifVA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-4" value="Ввод координаты x2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="280" width="231" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="keBvDJJ4HTDuqRogifVA-5" target="keBvDJJ4HTDuqRogifVA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-5" value="Ввод координаты y2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="360" width="231" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="keBvDJJ4HTDuqRogifVA-6" target="keBvDJJ4HTDuqRogifVA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-6" value="k = (y1 - y2) / (x1 - x2)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="440" width="231" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="keBvDJJ4HTDuqRogifVA-7" target="keBvDJJ4HTDuqRogifVA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-7" value="b = y2 - k * x2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="525" width="231" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="keBvDJJ4HTDuqRogifVA-8" target="keBvDJJ4HTDuqRogifVA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-8" value="Вывод &#39;y = kx + b&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="610" width="231" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keBvDJJ4HTDuqRogifVA-9" value="НАЧАЛО" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="700" width="230" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
